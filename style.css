@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body {
+    background-color: #000000;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    color: black;
+    background-color: #fff;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 20px 0;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#targetColor {
+    font-size: 200%;
+}
+
+#stripe {
+    text-align: center;
+    background-color: white;
+    padding: auto 0;
+    margin: 0 40px;
+    border-radius: 5px;
+}
+
+button {
+    border: none;
+    background-color: white;
+    height: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.3s;
+    cursor: pointer;
+    padding: 8px;
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(123, 213, 231);
+}
+
+#message {
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.3s;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.square {
+    background-color: red;
+    width: 12%;
+    margin: 1.66%;
+    float: left;
+    padding-bottom: 30%;
+    border-radius: 5px;
+    transition: background 0.7s;
+    cursor: pointer;
+}
+
+.square:first-child {
+    margin-left: 25px;
+}
+
+/* @media screen and (min-width: 601px) {
+    #targetColor {
+        font-size: 100%;
+    }
+} */
+
+@media screen and (max-width: 600px) {
+    #targetColor {
+        font-size: 100%;
+    }
+}
